@@ -1,0 +1,22 @@
+{
+    "name": "mangel/game-of-life",
+    "description": "A game of life PHP implementation",
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Ángel Sánchez Chordi",
+            "email": "mangel.snc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GameOfLife\\": "src/",
+            "Test\\": "test/"
+        }
+    }
+}
